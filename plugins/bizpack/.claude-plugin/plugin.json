@@ -1,0 +1,12 @@
+{
+  "name": "bizpack",
+  "description": "Business communication, strategy, and developer productivity tools for Claude Code",
+  "version": "1.1.0",
+  "author": {
+    "name": "Matthew Goldey"
+  },
+  "homepage": "https://github.com/mgoldey/bizpack",
+  "repository": "https://github.com/mgoldey/bizpack",
+  "license": "MIT",
+  "keywords": ["business", "communication", "strategy", "minto", "pyramid", "docs", "agents-md"]
+}

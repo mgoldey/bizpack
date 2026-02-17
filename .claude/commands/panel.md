@@ -1,0 +1,1 @@
+../../plugins/bizpack/commands/panel.md

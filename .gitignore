@@ -1,0 +1,6 @@
+# Local dev commands (duplicate of plugin commands)
+.claude/commands/
+
+# OS
+.DS_Store
+Thumbs.db

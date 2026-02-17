@@ -1,0 +1,16 @@
+{
+  "name": "mgoldey-bizpack",
+  "owner": {
+    "name": "Matthew Goldey"
+  },
+  "metadata": {
+    "description": "Business communication, strategy, and developer productivity tools for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "bizpack",
+      "source": "./plugins/bizpack",
+      "description": "Minto Pyramid structuring, expert panel evaluation, and docs index generation"
+    }
+  ]
+}
