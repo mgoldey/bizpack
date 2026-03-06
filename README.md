@@ -21,10 +21,9 @@ Install as a plugin from within Claude Code:
 ```
 /plugin marketplace add mgoldey/bizpack
 /plugin install bizpack@mgoldey-bizpack
-/plugin install wikidocs@mgoldey-bizpack
 ```
 
-Commands are available as `/bizpack:minto`, `/bizpack:panel`, `/bizpack:docs-index`, `/wikidocs:wiki-init`, and `/wikidocs:wiki-sync`.
+Commands are available as `/bizpack:minto`, `/bizpack:panel`, `/bizpack:docs-index`, `/bizpack:wiki-init`, and `/bizpack:wiki-sync`.
 
 ### Clone and use directly
 
@@ -134,11 +133,6 @@ Hooks are registered automatically when each plugin is installed.
 | Hook | Trigger | What it does |
 |------|---------|-------------|
 | **docs-index reminder** | `git commit` (PostToolUse on Bash) | If the project has a `## Docs Index` section in CLAUDE.md, reminds Claude to run `/docs-index rebuild` when files may have changed |
-
-### wikidocs hooks
-
-| Hook | Trigger | What it does |
-|------|---------|-------------|
 | **docs/ redirect** | Write tool (PostToolUse on Write) | When Claude writes a `.md` file outside `docs/`, reminds it to use the wiki submodule instead (only if the project has a `docs/` submodule) |
 | **wiki sync reminder** | `git commit` (PostToolUse on Bash) | If `docs/` has uncommitted changes after a commit, reminds Claude to run `/wiki-sync` |
 
