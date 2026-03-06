@@ -1,0 +1,12 @@
+{
+  "name": "wikidocs",
+  "description": "Store project documentation in a GitHub wiki submodule at docs/, with auto-creation and cross-branch sync",
+  "version": "0.1.0",
+  "author": {
+    "name": "Matthew Goldey"
+  },
+  "homepage": "https://github.com/mgoldey/bizpack",
+  "repository": "https://github.com/mgoldey/bizpack",
+  "license": "MIT",
+  "keywords": ["wiki", "docs", "documentation", "github", "submodule"]
+}
