@@ -4,13 +4,6 @@
 set -euo pipefail
 
 INPUT=$(cat)
-TOOL=$(echo "$INPUT" | jq -r '.tool_name // empty' 2>/dev/null || true)
-
-# Only trigger on Write tool calls
-if [[ "$TOOL" != "Write" ]]; then
-  exit 0
-fi
-
 FILE_PATH=$(echo "$INPUT" | jq -r '.tool_input.file_path // empty' 2>/dev/null || true)
 
 # Only care about .md files

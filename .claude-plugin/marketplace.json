@@ -10,12 +10,7 @@
     {
       "name": "bizpack",
       "source": "./plugins/bizpack",
-      "description": "Minto Pyramid structuring, expert panel evaluation, and docs index generation"
-    },
-    {
-      "name": "wikidocs",
-      "source": "./plugins/wikidocs",
-      "description": "GitHub wiki as docs/ submodule with auto-creation and cross-branch sync"
+      "description": "Minto Pyramid structuring, expert panel evaluation, docs index generation, and GitHub wiki management"
     }
   ]
 }
