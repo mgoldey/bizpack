@@ -1,7 +1,7 @@
 {
   "name": "bizpack",
   "description": "Business communication, strategy, and developer productivity tools for Claude Code",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": {
     "name": "Matthew Goldey"
   },

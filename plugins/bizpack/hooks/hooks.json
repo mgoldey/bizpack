@@ -6,12 +6,12 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$CLAUDE_PLUGIN_DIR/hooks/post-commit-docs-index.sh\"",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/post-commit-docs-index.sh",
             "timeout": 5
           },
           {
             "type": "command",
-            "command": "\"$CLAUDE_PLUGIN_DIR/hooks/post-commit-wiki-sync.sh\"",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/post-commit-wiki-sync.sh",
             "timeout": 5
           }
         ]
@@ -21,7 +21,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"$CLAUDE_PLUGIN_DIR/hooks/post-write-docs-remind.sh\"",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/post-write-docs-remind.sh",
             "timeout": 5
           }
         ]
