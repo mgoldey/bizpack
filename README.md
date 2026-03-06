@@ -8,7 +8,7 @@ Business communication, strategy, and developer productivity tools for [Claude C
 |---------|-------------|
 | `/minto` | Structures any message using the [Minto Pyramid Principle](https://en.wikipedia.org/wiki/Minto_Pyramid_Principle) — lead with the answer, group arguments, support with evidence |
 | `/panel` | Pitches a business idea to a panel of three experts who debate and score it |
-| `/docs-index` | Scans the project file tree and regenerates a compressed docs index in CLAUDE.md ([why this works](https://vercel.com/blog/agents-md-outperforms-skills)) |
+| `/docs-index` | Scans the project file tree and regenerates a compressed docs index in CLAUDE.md ([why this works](https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals)) |
 | `/wiki-init` | Sets up the GitHub wiki as a git submodule at `docs/`, auto-creating the wiki if needed |
 | `/wiki-sync` | Syncs local `docs/` changes to the GitHub wiki with cross-branch rebase |
 
@@ -82,7 +82,7 @@ They debate, score, and deliver a verdict (IN / OUT / CONDITIONAL) with actionab
 
 ### /docs-index
 
-Generate a compressed docs index for any project's CLAUDE.md. Based on [Vercel's research](https://vercel.com/blog/agents-md-outperforms-skills) showing that a static docs index in AGENTS.md achieves 100% agent task pass rate vs 53% for skills.
+Generate a compressed docs index for any project's CLAUDE.md. Based on [Vercel's research](https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals) showing that a static docs index in AGENTS.md achieves 100% agent task pass rate vs 53% for skills.
 
 The command scans your project's file tree, builds a compressed pipe-delimited index of all important files and API patterns, and embeds it in `## Docs Index` in your CLAUDE.md. This gives Claude always-on awareness of your codebase structure without needing to invoke any tools.
 
