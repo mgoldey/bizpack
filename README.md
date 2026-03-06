@@ -6,7 +6,7 @@ Business communication, strategy, and developer productivity tools for [Claude C
 
 | Command | What it does |
 |---------|-------------|
-| `/minto` | Structures any message using the [Minto Pyramid Principle](https://en.wikipedia.org/wiki/Minto_Pyramid_Principle) — lead with the answer, group arguments, support with evidence |
+| `/minto` | Structures any message using the [Minto Pyramid Principle](https://en.wikipedia.org/wiki/Barbara_Minto) — lead with the answer, group arguments, support with evidence |
 | `/panel` | Pitches a business idea to a panel of three experts who debate and score it |
 | `/docs-index` | Scans the project file tree and regenerates a compressed docs index in CLAUDE.md ([why this works](https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals)) |
 | `/wiki-init` | Sets up the GitHub wiki as a git submodule at `docs/`, auto-creating the wiki if needed |
