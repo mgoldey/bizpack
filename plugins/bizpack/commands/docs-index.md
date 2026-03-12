@@ -8,7 +8,7 @@ argument-hint: "[rebuild|check]"
 
 Regenerate the `## Docs Index` section in the project's CLAUDE.md from the current file tree.
 
-Inspired by [Vercel's finding](https://vercel.com/blog/agents-md-outperforms-skills) that a compressed docs index embedded in AGENTS.md/CLAUDE.md achieves 100% pass rate vs 53% for skills, because passive context beats active retrieval.
+Inspired by [Vercel's finding](https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals) that a compressed docs index embedded in AGENTS.md/CLAUDE.md achieves 100% pass rate vs 53% for skills, because passive context beats active retrieval.
 
 ## Arguments
 
